@@ -1,3 +1,4 @@
 env
 .vagrant
 .DS_Store
+secret.sh

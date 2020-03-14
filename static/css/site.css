@@ -22,18 +22,21 @@ a:active {
 }
 
 .main-box {
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.7);
     text-align: center;
-    margin-top: 10%;
+    margin-top: 5%;
     padding: 10%;  
 }
 
 .header-title {
     color: #fff;
+    margin: 2rem;
 }
 
 .search-box, .search-button {
-    border-radius: 1px;
+    border-radius: 5px;
+    margin: 1rem;
+
 }
 
 .search-button {

@@ -4,15 +4,18 @@
 
 {% block content %}
 <body onload="homepage()">
-    <div class="container" id="content">
-        <h1 class="header-title">The Metropolitan Museum of Art Collection</h1>
-        <form id="connection-form">
-            <div class="form-group">
-                <input type="text" name="art-name" id="art-name" class="form-control search-box">
+    <div class="main-box">
+        <div class="container" id="content">
+            <h1 class="header-title">The Metropolitan Museum of Art Collection</h1>
+            <form id="connection-form">
+                <div class="form-group">
+                    <input type="text" name="art-name" id="art-name" class="form-control search-box">
+                </div>
+                    <input type="submit" value="Search" class="btn btn-danger mb-2 float-center search-button">
+                </form>
+                <section id="flash-message" class="d-flex justify-content-start"></section>
+                <div id="loading"></div>
             </div>
-                <input type="submit" value="Search" class="btn btn-danger mb-2 float-center search-button">
-            </form>
         </div>
-    </div>
 </body>
 {% endblock %}

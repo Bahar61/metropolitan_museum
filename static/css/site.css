@@ -1,4 +1,71 @@
 body{
     font-family: 'Nunito', sans-serif;
-    background-image: 
+    color: white;
+    background-image: url(../img/MetropolitanMuseumofArt.jpg); 
 }
+
+a:link,
+a:visited {
+    color: #ED462F;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.2s; 
+}
+
+a:hover,
+a:active {
+    color: white;
+    background-color: #ED462F;
+    box-shadow: 0 1rem 2rem rgba(black, .4);
+    transform: rotate(5deg) scale(1.2);
+    padding: 2px;
+}
+
+.main-box {
+    background-color: rgba(0,0,0,0.8);
+    text-align: center;
+    margin-top: 10%;
+    padding: 10%;  
+}
+
+.header-title {
+    color: #fff;
+}
+
+.search-box, .search-button {
+    border-radius: 1px;
+}
+
+.search-button {
+    background-color: #ED462F; 
+}
+
+.card {
+    border: none;
+    border-radius: 2px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

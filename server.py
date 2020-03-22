@@ -2,8 +2,7 @@
 
 from jinja2 import StrictUndefined
 from flask_debugtoolbar import DebugToolbarExtension
-from flask import Flask, render_template, redirect, request, flash
-import requests
+from flask import Flask, render_template 
 import os
 
 app = Flask(__name__)

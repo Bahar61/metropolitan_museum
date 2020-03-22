@@ -21,13 +21,6 @@ def index():
     return render_template("homepage.html")
 
 
-@app.route('/results', methods=['GET'])
-def search_arts():
-    """Search for arts."""
-    
-    return render_template("results.html")
-
-
 if __name__ == '__main__':
     # set debug=True here, to invoke the DebugToolbarExtension 
     app.debug = True

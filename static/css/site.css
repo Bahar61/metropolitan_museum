@@ -9,25 +9,33 @@ a:visited {
     color: #ED462F;
     text-decoration: none;
     display: inline-block;
-    transition: all 0.2s; 
 }
 
 a:hover,
-a:active {
+a:active,
+#output > div > div > div > a {
     color: white;
     background-color: #ED462F;
-    box-shadow: 0 1rem 2rem rgba(black, .4);
-    transform: rotate(5deg) scale(1.2);
     padding: 2px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.2s;
+}
+
+#output > div > div > div > a {
+    width: 6rem;
+    margin-left: 30%;
+    padding: 0.5rem;
 }
 
 .main-box {
     background-color: rgba(0,0,0,0.7);
-    text-align: center;
     margin-top: 5%;
     padding: 10%;  
 }
-
+#connection-form {
+    text-align: center;
+}
 .header-title {
     color: #fff;
     margin: 2rem;
@@ -43,32 +51,35 @@ a:active {
     background-color: #ED462F; 
 }
 
-.card {
-    border: none;
-    border-radius: 2px; 
+#output {
+    margin: 2rem;
+    padding: 2rem;
 }
 
+#output > div {
+    background-color: rgba(0,0,0,0.7);
+    padding: 2rem;
+}
 
+.card-title {
+    margin: 1rem;
+}
 
+.dropdown-menu {
+    background-color: #1D0707;
+    border-color: white;
+}
+.dropdown-item {
+    color: white;
+}
 
+.dropdown-toggle {
+    background-color: #ED462F;
+    margin: 2rem;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: #ED462F;
+    border-color: #ED462F;
+}
